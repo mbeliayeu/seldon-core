@@ -4021,7 +4021,6 @@ spec:
                                       x-kubernetes-map-type: atomic
                                     maxSkew:
                                       description: 'None'
-                                        field. Default value is 1 and 0 is not allowed.'
                                       format: int32
                                       type: integer
                                     minDomains:
@@ -4333,7 +4332,6 @@ spec:
                                                   x-kubernetes-map-type: atomic
                                                 dataSourceRef:
                                                   description: 'None'
-                                                    disallowed values (dropping them), DataSourceRef preserves all values, and generates an error if a disallowed value is specified. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled.'
                                                   properties:
                                                     apiGroup:
                                                       description: 'None'
@@ -10790,7 +10788,6 @@ spec:
                                       x-kubernetes-map-type: atomic
                                     maxSkew:
                                       description: 'None'
-                                        field. Default value is 1 and 0 is not allowed.'
                                       format: int32
                                       type: integer
                                     minDomains:
@@ -11102,7 +11099,6 @@ spec:
                                                   x-kubernetes-map-type: atomic
                                                 dataSourceRef:
                                                   description: 'None'
-                                                    disallowed values (dropping them), DataSourceRef preserves all values, and generates an error if a disallowed value is specified. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled.'
                                                   properties:
                                                     apiGroup:
                                                       description: 'None'
@@ -17559,7 +17555,6 @@ spec:
                                       x-kubernetes-map-type: atomic
                                     maxSkew:
                                       description: 'None'
-                                        field. Default value is 1 and 0 is not allowed.'
                                       format: int32
                                       type: integer
                                     minDomains:
@@ -17871,7 +17866,6 @@ spec:
                                                   x-kubernetes-map-type: atomic
                                                 dataSourceRef:
                                                   description: 'None'
-                                                    disallowed values (dropping them), DataSourceRef preserves all values, and generates an error if a disallowed value is specified. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled.'
                                                   properties:
                                                     apiGroup:
                                                       description: 'None'
