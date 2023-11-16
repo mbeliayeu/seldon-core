@@ -798,7 +798,6 @@ spec:
                                 type: integer
                               deletionTimestamp:
                                 description: 'None'
-                                  \ partitions, this object may still exist after this timestamp, until an administrator or automated process can determine the resource is fully terminated. If not set, graceful deletion of the object has not been requested. \n Populated by the system when a graceful deletion is requested. Read-only. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata"
                                 format: date-time
                                 type: string
                               finalizers:
@@ -3807,7 +3806,6 @@ spec:
                                 x-kubernetes-map-type: atomic
                               os:
                                 description: 'None'
-                                  \ spec.containers[*].securityContext.procMount - spec.containers[*].securityContext.runAsUser - spec.containers[*].securityContext.runAsGroup This is a beta field and requires the IdentifyPodOS feature"
                                 properties:
                                   name:
                                     description: 'None'
@@ -4028,7 +4026,6 @@ spec:
                                       type: integer
                                     minDomains:
                                       description: 'None'
-                                        global minimum\" is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. \n This is an alpha field and requires enabling MinDomainsInPodTopologySpread feature gate."
                                       format: int32
                                       type: integer
                                     topologyKey:
@@ -4302,11 +4299,9 @@ spec:
                                       type: object
                                     ephemeral:
                                       description: 'None'
-                                        \ pod can use both types of ephemeral volumes and persistent volumes at the same time."
                                       properties:
                                         volumeClaimTemplate:
                                           description: 'None'
-                                            \ made by Kubernetes to the PVC after it has been created. \n Required, must not be nil."
                                           properties:
                                             metadata:
                                               description: 'None'
@@ -7572,7 +7567,6 @@ spec:
                                 type: integer
                               deletionTimestamp:
                                 description: 'None'
-                                  \ partitions, this object may still exist after this timestamp, until an administrator or automated process can determine the resource is fully terminated. If not set, graceful deletion of the object has not been requested. \n Populated by the system when a graceful deletion is requested. Read-only. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata"
                                 format: date-time
                                 type: string
                               finalizers:
@@ -10581,7 +10575,6 @@ spec:
                                 x-kubernetes-map-type: atomic
                               os:
                                 description: 'None'
-                                  \ spec.containers[*].securityContext.procMount - spec.containers[*].securityContext.runAsUser - spec.containers[*].securityContext.runAsGroup This is a beta field and requires the IdentifyPodOS feature"
                                 properties:
                                   name:
                                     description: 'None'
@@ -10802,7 +10795,6 @@ spec:
                                       type: integer
                                     minDomains:
                                       description: 'None'
-                                        global minimum\" is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. \n This is an alpha field and requires enabling MinDomainsInPodTopologySpread feature gate."
                                       format: int32
                                       type: integer
                                     topologyKey:
@@ -11076,11 +11068,9 @@ spec:
                                       type: object
                                     ephemeral:
                                       description: 'None'
-                                        \ pod can use both types of ephemeral volumes and persistent volumes at the same time."
                                       properties:
                                         volumeClaimTemplate:
                                           description: 'None'
-                                            \ made by Kubernetes to the PVC after it has been created. \n Required, must not be nil."
                                           properties:
                                             metadata:
                                               description: 'None'
@@ -14346,7 +14336,6 @@ spec:
                                 type: integer
                               deletionTimestamp:
                                 description: 'None'
-                                  \ partitions, this object may still exist after this timestamp, until an administrator or automated process can determine the resource is fully terminated. If not set, graceful deletion of the object has not been requested. \n Populated by the system when a graceful deletion is requested. Read-only. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata"
                                 format: date-time
                                 type: string
                               finalizers:
@@ -17355,7 +17344,6 @@ spec:
                                 x-kubernetes-map-type: atomic
                               os:
                                 description: 'None'
-                                  \ spec.containers[*].securityContext.procMount - spec.containers[*].securityContext.runAsUser - spec.containers[*].securityContext.runAsGroup This is a beta field and requires the IdentifyPodOS feature"
                                 properties:
                                   name:
                                     description: 'None'
@@ -17576,7 +17564,6 @@ spec:
                                       type: integer
                                     minDomains:
                                       description: 'None'
-                                        global minimum\" is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. \n This is an alpha field and requires enabling MinDomainsInPodTopologySpread feature gate."
                                       format: int32
                                       type: integer
                                     topologyKey:
@@ -17850,11 +17837,9 @@ spec:
                                       type: object
                                     ephemeral:
                                       description: 'None'
-                                        \ pod can use both types of ephemeral volumes and persistent volumes at the same time."
                                       properties:
                                         volumeClaimTemplate:
                                           description: 'None'
-                                            \ made by Kubernetes to the PVC after it has been created. \n Required, must not be nil."
                                           properties:
                                             metadata:
                                               description: 'None'

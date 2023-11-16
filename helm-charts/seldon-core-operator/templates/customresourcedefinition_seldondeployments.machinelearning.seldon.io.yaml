@@ -487,7 +487,6 @@ spec:
                               type: integer
                             deletionTimestamp:
                               description: 'None'
-                                \ partitions, this object may still exist after this timestamp, until an administrator or automated process can determine the resource is fully terminated. If not set, graceful deletion of the object has not been requested. \n Populated by the system when a graceful deletion is requested. Read-only. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata"
                               format: date-time
                               type: string
                             finalizers:
